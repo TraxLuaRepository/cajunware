@@ -32,6 +32,7 @@ function CreateEvent(EVENT)
     example.BackgroundTransparency = 1.000
     example.BorderColor3 = Color3.fromRGB(0, 0, 0)
     example.BorderSizePixel = 0
+    example.RichText = true
     example.Position = UDim2.new(0.322064161, 0, 0.833887041, 0)
     example.Size = UDim2.new(0, 280, 0, 50)
     example.Font = Enum.Font.RobotoMono
