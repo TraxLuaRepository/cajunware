@@ -12,13 +12,13 @@ local example = Instance.new("TextLabel")
 
 ScreenGui.Parent = game:GetService("CoreGui")
 
-Frame.Parent = ScreenGui
+Frame.Parent = game.StarterGui.ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.352856845, 0, 0.625621915, 0)
-Frame.Size = UDim2.new(0, 562, 0, 301)
+Frame.Position = UDim2.new(0.352856815, 0, 0.468905479, 0)
+Frame.Size = UDim2.new(0, 562, 0, 307)
 
 UIListLayout.Parent = Frame
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
