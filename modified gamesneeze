@@ -3783,7 +3783,6 @@ do
             Color = "textcolor"
         }
         --
-        utility:LoadImage(toggle__gradient, "gradient", "")
         --
         function toggle:Get()
             return toggle.current
