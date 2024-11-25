@@ -315,7 +315,8 @@ function library:addTab(name)
                     library.flags[args.flag] = val
                     button.Text = keyNames[val] or val.Name
                 end
-                inputService.InputBegan:Connect(function(key)
+                inputService.InputBegan:Connect(function(key, isprocessed)
+                    if isprocessed then return end
                     local key = key.KeyCode == Enum.KeyCode.Unknown and key.UserInputType or key.KeyCode
                     if next then
                         if not table.find(library.blacklisted,key) then
